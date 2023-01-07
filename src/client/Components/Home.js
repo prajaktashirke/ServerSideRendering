@@ -1,7 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 const Home = () => {
-    return <div> I am on home page</div>
+    return (
+        <div>
+            <div> I am on home page</div>
+            <button onClick={() => console.log("press me")}>Press Me!</button>
+        </div>
+    )
 }
 
 export default Home;
